@@ -1,0 +1,194 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: #dcfdfc;
+}
+/*PAGE 1*/
+.agregar-nueva-palabra
+{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    height: 67px;
+    margin: 0 auto;
+    padding: 12px 24px;
+    position: relative;
+    top: 344px;
+    width: 280px;
+}
+.alura-img
+{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.inicio
+{
+    display: none;/*display: flex;*/
+    flex-direction: column;
+    height: 10px;
+    position: relative;
+    width: 100%;   
+}
+.iniciar-juego
+{
+    background: #0A3871;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    height: 140px;
+    margin: 0 auto;
+    padding: 32px 24px;
+    position: relative;
+    color: #fff;
+    top: 310px;
+    width: 280px;
+}
+
+/*PAGE 2*/
+.botones-ingresar-palabra
+{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    position: relative;
+    top: 450px;
+    width: 80%;
+}
+.cancelar
+{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+    height: 67px;
+    padding: 24px;
+    width: 332px;
+}
+.guardar-palabra
+{
+    background: #0A3871;
+    border: 1px solid;
+    border-radius: 24px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    height: 67px;
+    margin-right: 20px;
+    width: 332px;
+}
+.ingresar-palabra
+{
+    display: none; /*display: flex;*/
+    flex-direction: column;
+    margin: 0 auto;
+    position: relative;
+    width: 60%;    
+}
+.ingresar-palabra img
+{
+    display: inline-block;
+    left: 10px;
+    position: absolute;
+    top: 390px;
+    width: 16px;
+}
+.ingresar-palabra h3
+{
+    display: inline-block;
+    font-size: 12px;
+    left: 30px;
+    position: absolute;
+    top: 391px;
+}
+.nueva-palabra
+{
+    background: #dcfdfc;
+    border: none;
+    font-size: 32px;
+    left: 8%;
+    position: absolute;
+    top: 206px;
+    width: 50%;
+}
+::placeholder { color: #0A3871; }
+.nueva-palabra:focus
+{
+    border: none;
+    outline: none;
+}
+
+/*PAGE 3*/
+.juego-ahorcado
+{
+    background: blue;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 80%;
+}
+.juego-botones
+{
+    left: 0;
+    position: relative;
+    right: 0;
+    top: 480px;
+}
+.juego-desistir
+{
+    border-radius: 24px;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+    height: 67px;
+    margin: 0 10px;
+    padding: 24px;
+    width: 332px;
+
+}
+.juego-nuevo
+{
+    background: #0A3871;
+    border-radius: 24px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    height: 67px;
+    left: 332px;
+    margin: 0 10px;
+    padding: 24px;
+    width: 332px;
+}
+.juego-texto
+{
+    position: absolute;
+    top: 350px;
+    left: 0;
+    right: 0;
+}
+
+.juego-texto h3
+{
+    
+    font-size: 25px;
+}
+.munieco
+{
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 80px;
+}
+
+
+
+
