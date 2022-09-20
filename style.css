@@ -126,6 +126,14 @@ body
 }
 
 /*PAGE 3*/
+#barras-adivinar
+{
+    height: 20px;
+}
+#palabra-adivinar
+{
+    height: 20px;
+}
 .juego-ahorcado
 {
     background: blue;
@@ -139,7 +147,7 @@ body
 .juego-botones
 {
     left: 0;
-    position: relative;
+    position: absolute;
     right: 0;
     top: 480px;
 }
@@ -170,23 +178,28 @@ body
 }
 .juego-texto
 {
-    position: absolute;
-    top: 350px;
+    /*background: blue;*/
     left: 0;
+    position: absolute;
     right: 0;
+    top: 385px;
 }
 
-.juego-texto h3
+.juego-texto table
 {
-    
-    font-size: 25px;
+    /*background: red;*/
+    left: 0;
+    margin: 0 auto;
+    right: 0;
 }
 .munieco
 {
+    background: url("imagenes/Fondo.png") no-repeat center;
+    height: 280px;
     left: 0;
     position: absolute;
     right: 0;
-    top: 80px;
+    top: 80px;    
 }
 
 
