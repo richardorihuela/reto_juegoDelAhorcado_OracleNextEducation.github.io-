@@ -1,4 +1,4 @@
-var palabras = ["ALURA", "ORACLE", "PROGRAMACION", "AVENIDA", "MUEBLERIA", "ALMACEN", "REIR", "JABONCILLO", "FERRARI"];
+var palabras = ["ALURA", "ORACLE", "PROGRAMACION", "AVENIDA", "MUEBLERIA", "ALMACEN", "REIR", "JABONCILLO", "FERRARI", "ERROR"];
 var k = -1;
 var palabra = "";
 var tamanio_palabra = 0;
@@ -129,7 +129,7 @@ function desistir()
     document.querySelector(".juego-ahorcado").style.display = 'none';
     document.querySelector(".inicio").style.display = 'flex';
     jugando = false;
-    
+
     palabra_armada = [];
     letras_ingresadas = "";
     letras_erroneas = "";
