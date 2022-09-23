@@ -129,6 +129,15 @@ function desistir()
     document.querySelector(".juego-ahorcado").style.display = 'none';
     document.querySelector(".inicio").style.display = 'flex';
     jugando = false;
+    
+    palabra_armada = [];
+    letras_ingresadas = "";
+    letras_erroneas = "";
+    mostrar_erroneas();
+    tamanio_palabra = 0;
+    mostrar_letras("");
+    document.getElementById("munieco").innerHTML = "";
+    document.getElementById("barras-adivinar").innerHTML = "";
 }
 
 document.getElementById("juego-desistir").onclick = (d) => {
