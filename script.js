@@ -13,6 +13,7 @@ function nuevo_juego()
     palabra_armada = [];
     letras_ingresadas = "";
     letras_erroneas = "";
+    mostrar_erroneas();
     tamanio_palabra = 0;
     jugando = true;
     n = 0;
@@ -113,7 +114,6 @@ document.addEventListener("keydown", (event) =>
             {
                 alert("ganaste!!!");
                 nuevo_juego();
-                mostrar_erroneas();
             }
         }
     }, false
