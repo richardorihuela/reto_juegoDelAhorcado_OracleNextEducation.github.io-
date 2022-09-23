@@ -4,6 +4,7 @@ var palabra = "";
 var tamanio_palabra = 0;
 var palabra_armada = [];
 var letras_ingresadas = "";
+var letras_erroneas = "";
 var n = 0;
 var jugando = false;
 
@@ -11,6 +12,7 @@ function nuevo_juego()
 {
     palabra_armada = [];
     letras_ingresadas = "";
+    letras_erroneas = "";
     tamanio_palabra = 0;
     jugando = true;
     n = 0;
@@ -43,6 +45,12 @@ function img_ahorcado(n)
     imagen = "<img src = 'imagenes/H_"+n+".png' width='250px'>";
     document.getElementById("munieco").innerHTML = imagen;
 }
+
+function mostrar_erroneas()
+{
+    document.getElementById("oprimidas").innerHTML = letras_erroneas;
+}
+
 function probar_letra(letra)
 {
     letra = letra.toUpperCase();
@@ -65,6 +73,7 @@ function probar_letra(letra)
         {
             n++;
             img_ahorcado(n);
+            letras_erroneas += letra + " ";
             if(n==9)
             {
                 alert("Perdiste :(");
@@ -72,6 +81,7 @@ function probar_letra(letra)
             }
         }
         mostrar_letras(palabra_armada);
+        mostrar_erroneas();
     }
 }
 
@@ -103,6 +113,7 @@ document.addEventListener("keydown", (event) =>
             {
                 alert("ganaste!!!");
                 nuevo_juego();
+                mostrar_erroneas();
             }
         }
     }, false
