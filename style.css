@@ -31,7 +31,6 @@ body
 .inicio
 {
     display: flex;
-    /*display: none;*/
     flex-direction: column;
     height: 10px;
     position: relative;
@@ -88,7 +87,6 @@ body
 .ingresar-palabra
 {
     display: none;
-    /*display: flex;*/
     flex-direction: column;
     margin: 0 auto;
     position: relative;
@@ -140,7 +138,6 @@ body
 {
     background: blue;
     display: none;
-    /*display: flex;*/
     flex-direction: column;
     margin: 0 auto;
     position: relative;
@@ -181,7 +178,6 @@ body
 }
 .juego-texto
 {
-    /*background: blue;*/
     left: 0;
     position: absolute;
     right: 0;
@@ -190,7 +186,6 @@ body
 
 .juego-texto table
 {
-    /*background: red;*/
     left: 0;
     margin: 0 auto;
     right: 0;
