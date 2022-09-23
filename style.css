@@ -30,7 +30,8 @@ body
 }
 .inicio
 {
-    display: none;/*display: flex;*/
+    display: flex;
+    /*display: none;*/
     flex-direction: column;
     height: 10px;
     position: relative;
@@ -86,7 +87,8 @@ body
 }
 .ingresar-palabra
 {
-    display: none; /*display: flex;*/
+    display: none;
+    /*display: flex;*/
     flex-direction: column;
     margin: 0 auto;
     position: relative;
@@ -137,7 +139,8 @@ body
 .juego-ahorcado
 {
     background: blue;
-    display: flex;
+    display: none;
+    /*display: flex;*/
     flex-direction: column;
     margin: 0 auto;
     position: relative;
